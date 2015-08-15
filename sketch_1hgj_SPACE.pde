@@ -27,7 +27,6 @@ void keyPressed() {
     startRound();
   }
   if (key == CODED) {
-    println(1);
     if (keyCode == UP) {
       up = true;
     }
