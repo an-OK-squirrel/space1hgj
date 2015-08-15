@@ -54,7 +54,6 @@ class Ship {
   
   void control() {
     if (up) {
-      println(1);
       vy = -10;
     }
     
@@ -63,12 +62,10 @@ class Ship {
     }
     
     if (right) {
-      println(1);
       vx = 10;
     }
     
     if (left) {
-      println(1);
       vx = -10;
     }
   }
