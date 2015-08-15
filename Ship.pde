@@ -34,6 +34,9 @@ class Ship {
     for (Bullet bullet : bullets) {
       bullet.move();
       bullet.render();
+      if (dist(bullet.x, bullet.y, x, y) < 20) {
+        death();
+      }
     }
   }
   
@@ -70,4 +73,5 @@ class Ship {
       vx = -10;
     }
   }
+  
 }

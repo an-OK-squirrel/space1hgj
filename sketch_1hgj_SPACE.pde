@@ -71,3 +71,7 @@ void process() {
 void render() {
   ship.render();
 }
+
+void death() {
+  state = 0;
+}
