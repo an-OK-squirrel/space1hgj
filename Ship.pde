@@ -59,7 +59,6 @@ class Ship {
     }
     
     if (down) {
-      println(1);
       vy = 10;
     }
     
